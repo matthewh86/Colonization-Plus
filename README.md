@@ -42,3 +42,9 @@ unknown program the first time: choose "More info", then "Run anyway".
 
 The releases contain only the mod's changes. They do not contain the game: you need your own installed copy.
 Sid Meier's Colonization is a trademark of its owners; this is an unofficial fan project.
+
+## Licence
+
+Colonization+ is licensed under [CC BY-NC-SA 4.0](LICENSE): you may share and adapt it for non-commercial
+purposes, with credit, under the same licence. The licence covers only the mod's own material, not the original
+game, which belongs to its owners.
