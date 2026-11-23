@@ -21,7 +21,7 @@ fixes. See [CHANGELOG.md](CHANGELOG.md) for what each release changed.
 
 The colony screen, the 1492 audience for an English player, and the choice of the next Founding Father.
 
-[Full Showcase](SHOWCASE_URL)
+[Full Showcase](https://claude.ai/artifact/62NWUPvCgqhVpGCwXdvDPR)
 
 ## Download and install
 
