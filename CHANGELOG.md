@@ -4,7 +4,7 @@ Each release is a patcher for your own copy of Sid Meier's Colonization (DOS 3.0
 
 ## rel59 (2026-11-13)
 
-First published patcher. It contains all work finished up to rel59 (259 items):
+First published patcher. It contains all work finished up to rel59 (257 items):
 
 #### Stability & saves
 - Native units visible in the fog of war (B20)
@@ -201,11 +201,9 @@ First published patcher. It contains all work finished up to rel59 (259 items):
 - Faster test suite (T27)
 - Faster integration (T28)
 - integrate.py keeps the other side's regen.py hunks (T28b)
-- Board: In refinement column (Board)
 - X1 segment room (low X1 area, dispatch + boot window, 24 modules) (T29)
 - integrate.py space check counts the merged branch (T28c)
 - rel28 full-suite failures: r3 and b5giveup (Tests28)
-- Board: per-question text fields and 'something else' fields (Board2)
 - Low X1 area usable for code (T29b)
 - Integration tooling: check_space module records, skipped items, gate_map union (T28d)
 - Keystone hex-read bug (gen_mod.Ks16) (REL29)

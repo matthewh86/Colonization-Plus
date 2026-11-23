@@ -850,7 +850,7 @@ Not published (internal test build).
 
 Not published (internal test build).
 
-8 items:
+7 items:
 
 - AI turn hangs when a founder cannot pay the 40 tools (B52)
 - Unit shields in the power's map colour, rebels' corner triangle (F55)
@@ -859,20 +859,18 @@ Not published (internal test build).
 - X1 segment room (low X1 area, dispatch + boot window, 24 modules) (T29)
 - integrate.py space check counts the merged branch (T28c)
 - rel28 full-suite failures: r3 and b5giveup (Tests28)
-- Board: per-question text fields and 'something else' fields (Board2)
 
 ## rel27 (2026-10-30)
 
 Not published (internal test build).
 
-6 items:
+5 items:
 
 - Reroll the colony name with a die in the founding name box (Q20b)
 - National anthems as loud as the other tunes (Q28b)
 - La Salle reveals rivers from the colonies' work areas (F33b)
 - Washington promotes at 25% before and 50% after the Declaration (F37b)
 - integrate.py keeps the other side's regen.py hunks (T28b)
-- Board: In refinement column (Board)
 
 ## rel26 (2026-10-30)
 
