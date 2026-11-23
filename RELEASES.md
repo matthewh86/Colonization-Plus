@@ -8,11 +8,20 @@ Every Colonization+ release, newest first: when it was made, whether a patcher w
 - Work done before rel1 (2026-10-22 to 2026-10-26) is listed at the end.
 - Each item is listed under the release its Completed Work entry names. A few items changed only the project's tests or documents outside a release and are not listed.
 
-77 releases from rel1 to rel86, 16 of them published.
+78 releases from rel1 to rel87, 18 of them published.
+
+## rel87 (2026-11-23)
+
+Published: [rel87 on GitHub](https://github.com/matthewh86/Colonization-Plus/releases/tag/rel87).
+
+2 items:
+
+- A divider between Center View and Show Borders (CPM167)
+- A divider between Spectate and Retire (CPM169)
 
 ## rel86 (2026-11-23)
 
-Not published (internal test build).
+Published: [rel86 on GitHub](https://github.com/matthewh86/Colonization-Plus/releases/tag/rel86).
 
 3 items:
 
@@ -27,13 +36,13 @@ Published: [rel85 on GitHub](https://github.com/matthewh86/Colonization-Plus/rel
 8 items:
 
 - Intro: the drum track keeps playing under the flag-planting music (CPM93)
-- The combined popups should have newlines and highlight (CPM151)
-- Price changes and foreign FF elections on new lines, highlighted (CPM154)
-- msgkeys suite counts DEBUG.TXT keys as GAME.TXT keys (CPM224)
 - Foreign Affairs reworked: all 8 powers on one screen (CPM50)
 - Foreign Affairs: drop the old per-power pages after the overview (CPM232)
+- The combined popups should have newlines and highlight (CPM151)
+- Price changes and foreign FF elections on new lines, highlighted (CPM154)
 - A colony adviser popup when captured units and colonies become loyal (CPM164)
 - Loadable module table: raise MAX_MODULES (CPM227)
+- msgkeys suite counts DEBUG.TXT keys as GAME.TXT keys (CPM224)
 
 ## rel84 (2026-11-23)
 
@@ -41,9 +50,9 @@ Published: [rel84 on GitHub](https://github.com/matthewh86/Colonization-Plus/rel
 
 3 items:
 
-- tools/hub_plugin.py: add GATE and gate_args (CPM215)
 - Postal texts: @POSTUNIT and @POSTSERVE no longer match the Mail code (CPM146)
 - Indian Adviser reworked: a row per tribe with villages, missions, mood and arms (CPM49)
+- tools/hub_plugin.py: add GATE and gate_args (CPM215)
 
 ## rel83 (2026-11-23)
 
@@ -51,9 +60,9 @@ Published: [rel83 on GitHub](https://github.com/matthewh86/Colonization-Plus/rel
 
 3 items:
 
+- Terrain changes stay hidden until the tile is seen again (CPM175)
 - Postal Adviser report (CPM39)
 - Create Unit cheat: the units the mod added (CPM199)
-- Terrain changes stay hidden until the tile is seen again (CPM175)
 
 ## rel82 (2026-11-23)
 
@@ -62,8 +71,8 @@ Published: [rel82 on GitHub](https://github.com/matthewh86/Colonization-Plus/rel
 3 items:
 
 - A selection box dragged around nothing unselected the unit (CPM173)
-- The Naval Adviser warns of a ship idle in Europe at the end of a turn (CPM194)
 - Jukebox: natural variation of the MIDI songs (CPM195)
+- The Naval Adviser warns of a ship idle in Europe at the end of a turn (CPM194)
 
 ## rel81 (2026-11-22)
 
@@ -90,8 +99,8 @@ Not published (internal test build).
 3 items:
 
 - Native Mail correspondence counts only tribes 0-7 (F99 tribes 8-11 missed) (CPM147)
-- New orders are hidden in View Mode (Postal Network, Dig Irrigation) (CPM159)
 - Support mousewheel scrolling (CPM196)
+- New orders are hidden in View Mode (Postal Network, Dig Irrigation) (CPM159)
 
 ## rel78 (2026-11-21)
 
@@ -100,8 +109,8 @@ Not published (internal test build).
 3 items:
 
 - Hard crash from professions menu again (CPM202)
-- ColDump replay: @UNITFLAG box after the turn-2 START snapshot (CPM124)
 - Load cargo (L) fills part-filled holds before taking the most valuable good (CPM176)
+- ColDump replay: @UNITFLAG box after the turn-2 START snapshot (CPM124)
 
 ## rel77 (2026-11-21)
 
@@ -109,9 +118,9 @@ Not published (internal test build).
 
 5 items:
 
+- Ships told to go to Europe do not head for the nearest High Seas (CPM153)
 - Colony screen: no 'Trees' tooltip over the trees (CPM78)
 - Rebellion messages show the military adviser portrait (CPM129)
-- Ships told to go to Europe do not head for the nearest High Seas (CPM153)
 - Cheat: edit a colony's buildings (CPM197)
 - Cheat: edit terrain (CPM198)
 
@@ -121,19 +130,33 @@ Not published (internal test build).
 
 13 items:
 
-- reserve_space: the X1 room line ignores the boot area (CPM119)
-- Gates skip the retry phase when many suites fail (CPM134)
-- integrate.py: per-item regen fails a branch that shifts the low blocks (CPM122)
-- Smart gate selects t25reloc when a branch declares reloc_ok hits (CPM87)
-- ColDump reports flag game code changed in memory (CPM85)
-- f6b34 is flaky: a colonist sometimes leaves the docks unarmed (CPM136)
+**Stability & saves**
+
 - Autosave rotation deleted a missing COLONY14 (CPM84)
-- Disloyal mark: no leftover bar on the blink; top right of the unit tile (CPM75)
-- Colony screen: selection box left below the stockade (CPM76)
+
+**Colonies & production**
+
 - Jeweller's House as a colony founding choice (CPM104)
-- Colonizopedia: the Mail article in sections (CPM102)
+
+**AI & diplomacy**
+
 - A computer power that loses its last colony comes back from Europe (CPM126)
 - War of Succession transfer clears the loser's CPM126 slot (CPM144)
+
+**Interface & information**
+
+- Colony screen: selection box left below the stockade (CPM76)
+- Colonizopedia: the Mail article in sections (CPM102)
+- Disloyal mark: no leftover bar on the blink; top right of the unit tile (CPM75)
+
+**Testing**
+
+- reserve_space: the X1 room line ignores the boot area (CPM119)
+- ColDump reports flag game code changed in memory (CPM85)
+- Smart gate selects t25reloc when a branch declares reloc_ok hits (CPM87)
+- integrate.py: per-item regen fails a branch that shifts the low blocks (CPM122)
+- Gates skip the retry phase when many suites fail (CPM134)
+- f6b34 is flaky: a colonist sometimes leaves the docks unarmed (CPM136)
 
 ## rel75 (2026-11-19)
 
@@ -545,14 +568,14 @@ Not published (internal test build).
 
 8 items:
 
-- Large maps (70 x 90) (F10b)
-- Founding Fathers rebalance (first pass) (F90)
-- Founding Fathers balance, second pass (F92)
-- Distinct Founding Father figures (F93)
+- Save names for Portugal / Russia / Denmark / Sweden games (B66)
 - Education Adviser report (Q12)
 - Production Adviser report (Q12b)
 - Naval Adviser report redrawn (Q12c)
-- Save names for Portugal / Russia / Denmark / Sweden games (B66)
+- Founding Fathers rebalance (first pass) (F90)
+- Founding Fathers balance, second pass (F92)
+- Distinct Founding Father figures (F93)
+- Large maps (70 x 90) (F10b)
 
 ## rel54 (2026-11-08)
 
@@ -561,11 +584,11 @@ Not published (internal test build).
 6 items:
 
 - reserve_space can lower IMG_LO for a low block (T38)
+- Upper memory room for Large maps and the fathers rebalance (T39)
+- Founding Father figures: one body height, 19 redrawn (F91)
 - Small and Normal map sizes (stage 1) (F10)
 - Quieter notifications: a Messages list in Game Options (Q7)
 - Hovering over a unit shows its route (F89)
-- Founding Father figures: one body height, 19 redrawn (F91)
-- Upper memory room for Large maps and the fathers rebalance (T39)
 
 ## rel53 (2026-11-08)
 
@@ -573,20 +596,43 @@ Not published (internal test build).
 
 14 items:
 
-- Portugal, Russia, Denmark and Sweden have no banner in the throne room (B64)
+**Stability & saves**
+
 - Module cache leaked across a program handover (B65)
-- Audience with the King (F11)
+- Upper memory room for the rel53 batch (T37)
+
+**REF & independence**
+
 - Peaceful independence path (F4)
+
+**Combat**
+
+- Carolean Infantry: stronger, attack bonus 20% (F86)
+
+**Colonies & production**
+
+- Dye chain: a Dyemaker's House level (F82)
+- Choose the colony square's secondary crop (F85)
+
+**Europe, taxes & the Crown**
+
+- Audience with the King (F11)
+
+**Interface & information**
+
+- Entering an unmet village or colony keeps the unit's remaining moves (F84)
+
+**Founding Fathers**
+
 - Exploration Founding Fathers' effects (F45)
 - Military Founding Fathers' effects (F46)
 - Political Founding Fathers' effects (F47)
 - Religious Founding Fathers' effects (F48)
-- Dye chain: a Dyemaker's House level (F82)
 - The father's biography on the Founding Father screen (F83)
-- Entering an unmet village or colony keeps the unit's remaining moves (F84)
-- Choose the colony square's secondary crop (F85)
-- Carolean Infantry: stronger, attack bonus 20% (F86)
-- Upper memory room for the rel53 batch (T37)
+
+**Nations & big features**
+
+- Portugal, Russia, Denmark and Sweden have no banner in the throne room (B64)
 
 ## rel52 (2026-11-08)
 
@@ -594,12 +640,12 @@ Not published (internal test build).
 
 7 items:
 
+- A destroyed village's muskets stay with the tribe (R21b)
+- Natives offer tiny 2-ton gifts when your storage is nearly full (R22)
 - Colony and Trade Reports in the display order (F71c)
 - The new skills' names follow the game's skill / expert pattern (B60)
 - The unique land units' Colonopedia pages show the foot and the mounted unit (B62)
 - The unique units' Colonopedia pages without purchase and production costs (B63)
-- A destroyed village's muskets stay with the tribe (R21b)
-- Natives offer tiny 2-ton gifts when your storage is nearly full (R22)
 - Trade Founding Fathers' effects (F44)
 
 ## rel51 (2026-11-07)
@@ -608,14 +654,14 @@ Not released on its own: this set went out with rel52.
 
 8 items:
 
+- Portugal's mission cross is black (B61)
 - Goods in the original's order on the goods bars (F71)
 - Paged goods lists in the display order (F71b)
 - Map square info lists the new crops' yields on plain squares (B59)
 - The jukebox is empty (B57)
 - The jukebox's Silence setting does nothing (B58)
-- Portugal's mission cross is black (B61)
-- Cossack plunder 5%, at most 50 gold (F87)
 - The 1492 audience greets a Russian player with the Tsar (F81)
+- Cossack plunder 5%, at most 50 gold (F87)
 
 ## rel50 (2026-11-06)
 
@@ -623,9 +669,9 @@ Not released on its own: this set went out with rel52.
 
 3 items:
 
+- Founding Father selection screen in the game's own look (F79)
 - Leader portraits for the eight powers (F13d)
 - Meetings with the new powers show blank king and country names (B56)
-- Founding Father selection screen in the game's own look (F79)
 
 ## rel49 (2026-11-07)
 
@@ -634,8 +680,8 @@ Not published (internal test build).
 3 items:
 
 - Tar chain levels: Tar Burner's House, Tar Works, Naval Stores Factory (F80)
-- The Continental Congress chamber and 65 full-length fathers (F49)
 - Tabs in the build list, the profession menu and the Train list (F78)
+- The Continental Congress chamber and 65 full-length fathers (F49)
 
 ## rel48 (2026-11-05)
 
@@ -643,8 +689,8 @@ Not published (internal test build).
 
 2 items:
 
-- In-game jukebox (F76)
 - Native raids burn every house; the Carpenter's Yard (F77)
+- In-game jukebox (F76)
 
 ## rel47 (2026-11-05)
 

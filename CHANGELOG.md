@@ -641,3 +641,30 @@ Changes since rel84 (work released in rel85, 8 items):
 
 #### Installing
 Download the Patcher .exe below, run it and pick your Colonization folder. It checks the game files, backs up the originals in COLMOD_BACKUP and can restore them. It contains only the mod's changes, not the game.
+
+## rel86 (2026-11-23)
+
+Changes since rel85 (work released in rel86, 3 items):
+
+#### Ships & movement
+- Units path past unexplored terrain when the cost is the same (CPM152)
+
+#### Interface & information
+- Foreign Affairs overview: a Founding Fathers count per power (CPM236)
+
+#### Testing
+- cpm227space check 3 fails on every branch since rel85 (CPM240)
+
+#### Installing
+Download the Patcher .exe below, run it and pick your Colonization folder. It checks the game files, backs up the originals in COLMOD_BACKUP and can restore them. It contains only the mod's changes, not the game.
+
+## rel87 (2026-11-23)
+
+Changes since rel86 (work released in rel87, 2 items):
+
+#### Interface & information
+- A divider between Center View and Show Borders (CPM167)
+- A divider between Spectate and Retire (CPM169)
+
+#### Installing
+Download the Patcher .exe below, run it and pick your Colonization folder. It checks the game files, backs up the originals in COLMOD_BACKUP and can restore them. It contains only the mod's changes, not the game.
