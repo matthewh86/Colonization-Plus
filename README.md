@@ -3,6 +3,8 @@
 Colonization+ is a mod for Sid Meier's Colonization (the DOS game, version 3.0). It keeps the original 320x200 look
 and adds new European powers, native tribes, professions, buildings, advisers, interface improvements and many
 fixes. See [CHANGELOG.md](CHANGELOG.md) for what each release changed.
+[RELEASES.md](RELEASES.md) is the full release history, from rel1 on, including the internal test builds
+that were not published.
 
 ## Showcase
 
