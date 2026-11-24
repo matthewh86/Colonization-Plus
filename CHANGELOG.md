@@ -668,3 +668,18 @@ Changes since rel86 (work released in rel87, 2 items):
 
 #### Installing
 Download the Patcher .exe below, run it and pick your Colonization folder. It checks the game files, backs up the originals in COLMOD_BACKUP and can restore them. It contains only the mod's changes, not the game.
+
+## rel88 (2026-11-24)
+
+Changes since rel87 (work released in rel88, 2 items):
+
+#### Interface & information
+- The no-unit Attach / Convoy message has the explorer adviser (CPM172)
+
+#### Testing
+- The patcher installs ColDump and starts the crash watch from GOG Galaxy or Steam (CPM251)
+
+#### Installing
+Download the Patcher .exe below, run it and pick your Colonization folder. It checks the game files, backs up the originals in COLMOD_BACKUP and can restore them. It contains only the mod's changes, not the game.
+
+From rel88 the patcher also installs ColDump, the crash report tool. With the two boxes ticked (the default) it adds a "Colonization mod" shortcut that starts the crash watch and the game, and a small Windows start-up helper that starts the watch when the game is launched from GOG Galaxy or Steam. Untick them to skip either; Restore removes them again.

@@ -8,7 +8,16 @@ Every Colonization+ release, newest first: when it was made, whether a patcher w
 - Work done before rel1 (2026-10-22 to 2026-10-26) is listed at the end.
 - Each item is listed under the release its Completed Work entry names. A few items changed only the project's tests or documents outside a release and are not listed.
 
-78 releases from rel1 to rel87, 18 of them published.
+79 releases from rel1 to rel88, 19 of them published.
+
+## rel88 (2026-11-24)
+
+Published: [rel88 on GitHub](https://github.com/matthewh86/Colonization-Plus/releases/tag/rel88).
+
+2 items:
+
+- The no-unit Attach / Convoy message has the explorer adviser (CPM172)
+- The patcher installs ColDump and starts the crash watch from GOG Galaxy or Steam (CPM251)
 
 ## rel87 (2026-11-23)
 
